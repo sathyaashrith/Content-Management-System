@@ -117,4 +117,10 @@ This CMS demonstrates real-world backend development using Flask, including auth
 
 ---
 
+<img width="1919" height="947" alt="Screenshot 2026-01-28 191033" src="https://github.com/user-attachments/assets/a46e5ad1-8d84-4635-ad87-cfd7f560fdab" />
+<img width="1919" height="938" alt="Screenshot 2026-01-28 191127" src="https://github.com/user-attachments/assets/b488236e-683c-4560-8a64-70edb9a310a4" />
+<img width="1917" height="945" alt="Screenshot 2026-01-28 191156" src="https://github.com/user-attachments/assets/b7808eb0-18ca-410a-bb2e-83ef641c3abc" />
+<img width="1919" height="934" alt="Screenshot 2026-01-28 191221" src="https://github.com/user-attachments/assets/3904f129-f031-491e-9441-bbbf283cda38" />
+
+
 
