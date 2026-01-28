@@ -52,5 +52,69 @@ This project supports **role-based access control (Admin, Editor, Viewer)** and 
 
 ---
 
-## 📂 Project Structure
+## How to Run the Project
+
+Clone the repository, install dependencies, create the database, create users, and start the server using the following commands:
+
+pip install -r requirements.txt  
+python create_db.py  
+python create_user.py  
+python create_viewer.py  
+python run.py  
+
+Open the application in a browser at:
+
+http://127.0.0.1:5000/login
+
+---
+
+## Default User Credentials
+
+Admin  
+Username: admin  
+Password: admin123  
+
+Viewer  
+Username: viewer  
+Password: viewer123  
+
+---
+
+## REST API Endpoints
+
+GET    /api/posts          → Fetch all posts  
+GET    /api/posts/{id}     → Fetch single post  
+POST   /api/posts          → Create post  
+PUT    /api/posts/{id}     → Update post  
+DELETE /api/posts/{id}     → Delete post  
+
+Note: All posts created via API automatically have the author set to **Postman**.
+
+---
+
+## Security
+
+- Passwords are hashed before storage
+- Routes are protected using login sessions
+- Role-based authorization is enforced
+- Database and virtual environment are excluded from Git using .gitignore
+
+---
+
+## Academic and Portfolio Use
+
+This project is suitable for:
+- College mini and major projects
+- Viva examinations
+- Backend / full-stack portfolios
+- GitHub project showcase
+
+---
+
+## Conclusion
+
+This CMS demonstrates real-world backend development using Flask, including authentication, authorization, REST APIs, professional UI design, and version control. It is designed to be simple, scalable, and easy to understand while following industry practices.
+
+---
+
 
